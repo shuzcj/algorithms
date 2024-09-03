@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/programme/C++C/algorithms/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target algorithms
+# Object build statements for EXECUTABLE target dp1
 
 
 #############################################
-# Order-only phony target for algorithms
+# Order-only phony target for dp1
 
-build cmake_object_order_depends_target_algorithms: phony || .
+build cmake_object_order_depends_target_dp1: phony || .
 
-build CMakeFiles/algorithms.dir/DP/背包问题01.cpp.obj: CXX_COMPILER__algorithms_unscanned_Debug D$:/programme/C++C/algorithms/DP/背包问题01.cpp || cmake_object_order_depends_target_algorithms
-  DEP_FILE = CMakeFiles\algorithms.dir\DP\背包问题01.cpp.obj.d
+build CMakeFiles/dp1.dir/DP/背包问题01.cpp.obj: CXX_COMPILER__dp1_unscanned_Debug D$:/programme/C++C/algorithms/DP/背包问题01.cpp || cmake_object_order_depends_target_dp1
+  DEP_FILE = CMakeFiles\dp1.dir\DP\背包问题01.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\algorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles\algorithms.dir\DP
+  OBJECT_DIR = CMakeFiles\dp1.dir
+  OBJECT_FILE_DIR = CMakeFiles\dp1.dir\DP
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target algorithms
+# Link build statements for EXECUTABLE target dp1
 
 
 #############################################
-# Link the executable algorithms.exe
+# Link the executable dp1.exe
 
-build algorithms.exe: CXX_EXECUTABLE_LINKER__algorithms_Debug CMakeFiles/algorithms.dir/DP/背包问题01.cpp.obj
+build dp1.exe: CXX_EXECUTABLE_LINKER__dp1_Debug CMakeFiles/dp1.dir/DP/背包问题01.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\algorithms.dir
+  OBJECT_DIR = CMakeFiles\dp1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = algorithms.exe
-  TARGET_IMPLIB = libalgorithms.dll.a
-  TARGET_PDB = algorithms.exe.dbg
+  TARGET_FILE = dp1.exe
+  TARGET_IMPLIB = libdp1.dll.a
+  TARGET_PDB = dp1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dp2
+
+
+#############################################
+# Order-only phony target for dp2
+
+build cmake_object_order_depends_target_dp2: phony || .
+
+build CMakeFiles/dp2.dir/DP/完全背包.cpp.obj: CXX_COMPILER__dp2_unscanned_Debug D$:/programme/C++C/algorithms/DP/完全背包.cpp || cmake_object_order_depends_target_dp2
+  DEP_FILE = CMakeFiles\dp2.dir\DP\完全背包.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dp2.dir
+  OBJECT_FILE_DIR = CMakeFiles\dp2.dir\DP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dp2
+
+
+#############################################
+# Link the executable dp2.exe
+
+build dp2.exe: CXX_EXECUTABLE_LINKER__dp2_Debug CMakeFiles/dp2.dir/DP/完全背包.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dp2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dp2.exe
+  TARGET_IMPLIB = libdp2.dll.a
+  TARGET_PDB = dp2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target asd
@@ -132,9 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build algorithms: phony algorithms.exe
-
 build asd: phony asd.exe
+
+build dp1: phony dp1.exe
+
+build dp2: phony dp2.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +179,7 @@ build asd: phony asd.exe
 #############################################
 # Folder: D:/programme/C++C/algorithms/cmake-build-debug
 
-build all: phony algorithms.exe asd.exe
+build all: phony dp1.exe dp2.exe asd.exe
 
 # =============================================================================
 # Built-in targets
