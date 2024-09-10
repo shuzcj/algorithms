@@ -1,8 +1,10 @@
 # ninja log v6
 4	262	7467255940174029	CMakeFiles/algorithms.dir/DP/背包问题01.cpp.obj	a4f55064609b0b2d
+2	354	7470635884241325	CMakeFiles/dp2.dir/DP/完全背包.cpp.obj	572277aee5c5c5f8
 5	150	7467257097698759	algorithms.exe	a3be825d8db7d88e
-1	273	7470635818631978	build.ninja	7f9befa0e103bf05
+1	239	7475457065626912	build.ninja	7f9befa0e103bf05
 2	235	7468248545153245	CMakeFiles/asd.dir/popp/test.cpp.obj	7abc657f488266e3
 235	641	7468248547485967	asd.exe	61a98c946faad87a
-2	354	7470635884241325	CMakeFiles/dp2.dir/DP/完全背包.cpp.obj	572277aee5c5c5f8
 355	529	7470635887768861	dp2.exe	e13d46dd7a46db2b
+1	1475	7475445461251674	CMakeFiles/dp1.dir/DP/背包问题01.cpp.obj	c5bc64e46b87d23c
+9	1476	7475445461341379	CMakeFiles/dp1.dir/DP/多重背包1.cpp.obj	61af211f59aa6965

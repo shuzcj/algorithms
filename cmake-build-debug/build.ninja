@@ -49,11 +49,11 @@ cmake_ninja_workdir = D$:/programme/C++C/algorithms/cmake-build-debug/
 
 build cmake_object_order_depends_target_dp1: phony || .
 
-build CMakeFiles/dp1.dir/DP/背包问题01.cpp.obj: CXX_COMPILER__dp1_unscanned_Debug D$:/programme/C++C/algorithms/DP/背包问题01.cpp || cmake_object_order_depends_target_dp1
-  DEP_FILE = CMakeFiles\dp1.dir\DP\背包问题01.cpp.obj.d
+build CMakeFiles/dp1.dir/DP/背包问题/背包问题01.cpp.obj: CXX_COMPILER__dp1_unscanned_Debug D$:/programme/C++C/algorithms/DP/背包问题/背包问题01.cpp || cmake_object_order_depends_target_dp1
+  DEP_FILE = CMakeFiles\dp1.dir\DP\背包问题\背包问题01.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\dp1.dir
-  OBJECT_FILE_DIR = CMakeFiles\dp1.dir\DP
+  OBJECT_FILE_DIR = CMakeFiles\dp1.dir\DP\背包问题
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/dp1.dir/DP/背包问题01.cpp.obj: CXX_COMPILER__dp1_unscanned_
 #############################################
 # Link the executable dp1.exe
 
-build dp1.exe: CXX_EXECUTABLE_LINKER__dp1_Debug CMakeFiles/dp1.dir/DP/背包问题01.cpp.obj
+build dp1.exe: CXX_EXECUTABLE_LINKER__dp1_Debug CMakeFiles/dp1.dir/DP/背包问题/背包问题01.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dp1.dir
@@ -82,11 +82,11 @@ build dp1.exe: CXX_EXECUTABLE_LINKER__dp1_Debug CMakeFiles/dp1.dir/DP/背包问�
 
 build cmake_object_order_depends_target_dp2: phony || .
 
-build CMakeFiles/dp2.dir/DP/完全背包.cpp.obj: CXX_COMPILER__dp2_unscanned_Debug D$:/programme/C++C/algorithms/DP/完全背包.cpp || cmake_object_order_depends_target_dp2
-  DEP_FILE = CMakeFiles\dp2.dir\DP\完全背包.cpp.obj.d
+build CMakeFiles/dp2.dir/DP/背包问题/完全背包.cpp.obj: CXX_COMPILER__dp2_unscanned_Debug D$:/programme/C++C/algorithms/DP/背包问题/完全背包.cpp || cmake_object_order_depends_target_dp2
+  DEP_FILE = CMakeFiles\dp2.dir\DP\背包问题\完全背包.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\dp2.dir
-  OBJECT_FILE_DIR = CMakeFiles\dp2.dir\DP
+  OBJECT_FILE_DIR = CMakeFiles\dp2.dir\DP\背包问题
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/dp2.dir/DP/完全背包.cpp.obj: CXX_COMPILER__dp2_unscanned_De
 #############################################
 # Link the executable dp2.exe
 
-build dp2.exe: CXX_EXECUTABLE_LINKER__dp2_Debug CMakeFiles/dp2.dir/DP/完全背包.cpp.obj
+build dp2.exe: CXX_EXECUTABLE_LINKER__dp2_Debug CMakeFiles/dp2.dir/DP/背包问题/完全背包.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dp2.dir
